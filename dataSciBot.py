@@ -21,7 +21,7 @@ client.remove_command('status')
 
 async def on_ready():
     print("DataSci Bot is ready")
-    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="Crunching the Numbers..."))
+    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="datasci.zuzu.red"))
 
 @client.command()
 async def ping(ctx):
